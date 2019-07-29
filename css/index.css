@@ -70,8 +70,24 @@ nav a {
 }
 .middle-img {
   width: 100%;
+  padding-top: 20px;
 }
 footer {
   display: flex;
   justify-content: center;
+  background-color: lightgray;
+  border-radius: 15px;
+}
+.bbox {
+  width: 100%;
+}
+.bbox button {
+  width: 150%;
+  padding: 20px;
+  border-radius: 15px;
+}
+@media (max-width: 500px) {
+  .bbox button {
+    width: 100%;
+  }
 }
