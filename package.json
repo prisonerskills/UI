@@ -1,0 +1,25 @@
+{
+  "name": "UI",
+  "version": "1.0.0",
+  "description": "User Interface",
+  "main": "index.js",
+  "scripts": {
+    "less-watch": "less-watch-compiler less css index.less",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/prisonerskills/UI.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/prisonerskills/UI/issues"
+  },
+  "homepage": "https://github.com/prisonerskills/UI#readme",
+  "dependencies": {
+    "less": "^3.9.0",
+    "watch-compiler": "^1.1.0"
+  }
+}
