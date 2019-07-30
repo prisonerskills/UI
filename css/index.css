@@ -1,14 +1,12 @@
 body {
   max-width: 1000px;
-  padding: 20px;
 }
 nav {
   display: flex;
   justify-content: space-around;
   padding-top: 2rem;
   padding-bottom: 2rem;
-  background-color: lightgray;
-  border-radius: 15px;
+  background-color: #e25151;
 }
 nav a {
   font-size: 30px;
@@ -30,22 +28,42 @@ nav a {
   .container,
   .container2 {
     flex-direction: column;
+    align-items: center;
+    justify-content: center;
   }
 }
 .top .box,
 .container .box,
 .container2 .box {
   width: 48%;
-  padding: 15px;
+  padding: 10px;
   display: flex;
   flex-direction: column;
-  justify-content: center;
+}
+.top .box .ones,
+.container .box .ones,
+.container2 .box .ones {
+  height: 550px;
+}
+.top .box .face,
+.container .box .face,
+.container2 .box .face {
+  width: 100%;
+}
+@media (max-width: 500px) {
+  .top .box .face,
+  .container .box .face,
+  .container2 .box .face {
+    width: 100%;
+  }
 }
 @media (max-width: 500px) {
   .top .box,
   .container .box,
   .container2 .box {
     width: 100%;
+    align-items: center;
+    justify-content: center;
   }
   .top .box .ones,
   .container .box .ones,
@@ -56,10 +74,11 @@ nav a {
 .top .box button,
 .container .box button,
 .container2 .box button {
-  font-size: 20px;
-  border-radius: 20px;
-  padding: 2rem;
-  background-color: lightgray;
+  width: 50%;
+  margin: 0.1rem;
+  font-size: 12px;
+  border-radius: 8px;
+  padding: 0.5rem;
 }
 @media (max-width: 500px) {
   .top .box button,
@@ -75,8 +94,9 @@ nav a {
 footer {
   display: flex;
   justify-content: center;
-  background-color: lightgray;
-  border-radius: 15px;
+  background-color: #e25151;
+  border-radius: 2px;
+  padding: 10px;
 }
 .bbox {
   display: flex;
@@ -84,12 +104,11 @@ footer {
   justify-items: center;
   align-items: center;
 }
-.bbox button {
-  padding: 20px;
-  border-radius: 15px;
+.bbox .face {
+  width: 40%;
 }
 @media (max-width: 500px) {
-  .bbox button {
+  .bbox .face {
     width: 100%;
   }
 }

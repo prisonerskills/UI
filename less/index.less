@@ -1,72 +1,85 @@
 body{
-    max-width:1000px;
-    padding:20px;
+    max-width: 1000px;
 }
-
 nav {
-    a{
+  a {
     font-size: 30px;
     text-decoration: none;
-    color:black;
-    @media (max-width:500px){
-       font-size: 20px;
+    color: black;
+    @media (max-width: 500px) {
+      font-size: 20px;
     }
-    }
-    display:flex;
-    justify-content: space-around;
-    padding-top: 2rem;
-    padding-bottom: 2rem;
-    background-color:lightgray;
-    border-radius: 15px;
+  }
+  display: flex;
+  justify-content: space-around;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+  background-color: rgb(226, 81, 81);
 }
-.top, .container, .container2{
-  display:flex;
-  @media (max-width:500px){
+.top,
+.container,
+.container2 {
+  display: flex;
+  @media (max-width: 500px) {
     flex-direction: column;
- }
-  .box{
-      width:48%;
-      padding:15px;
-      display:flex;
-      flex-direction: column;
-      justify-content: center;
-      @media (max-width:500px){
+    align-items: center;
+    justify-content: center;
+  }
+  .box {
+    width: 48%;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+
+    .ones {
+      height: 550px;
+    }
+    .face{
         width:100%;
-        .ones{display:none;
+        @media (max-width: 500px) {
+            width: 100%;
         }
-     }
-      button{
-          font-size: 20px;
-          border-radius: 20px;
-          padding:2rem;
-          background-color: lightgray;
-          @media (max-width:500px){
-             border-radius: 20px; 
-          }
+    }
+    @media (max-width: 500px) {
+      width: 100%;
+      align-items: center;
+      justify-content: center;
+      .ones {
+        display: none;
       }
+    }
+    button {
+      width: 50%;
+      margin: 0.1rem;
+      font-size: 12px;
+      border-radius: 8px;
+      padding: 0.5rem;
+      @media (max-width: 500px) {
+        border-radius: 20px;
+      }
+    }
   }
 }
-.middle-img{
-    width:100%;
-    padding-top:20px;
+.middle-img {
+  width: 100%;
+  padding-top: 20px;
 }
-footer{
-    display:flex;
-    justify-content: center;
-    background-color:lightgray;
-    border-radius: 15px;
+footer {
+  display: flex;
+  justify-content: center;
+  background-color: rgb(226, 81, 81);
+  border-radius: 2px;
+  padding: 10px;
 }
-.bbox{
-   display:flex;
-   flex-direction: column;
-   justify-items: center;
-   align-items: center;
-    button{
-     
-        padding:20px;
-        border-radius: 15px;
-        @media (max-width:500px){
-            width:100%;
-        }
+.bbox {
+  display: flex;
+  flex-direction: column;
+  justify-items: center;
+  align-items: center;
+  .face{
+    width:40%;
+    @media (max-width:500px){
+        width:100%;
     }
+}
 }
