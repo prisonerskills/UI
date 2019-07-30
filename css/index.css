@@ -2,6 +2,7 @@ body {
   max-width: 1000px;
 }
 nav {
+  border-radius: 5px;
   display: flex;
   justify-content: space-around;
   padding-top: 2rem;
@@ -48,6 +49,7 @@ nav a {
 .top .box .face,
 .container .box .face,
 .container2 .box .face {
+  border-radius: 20px;
   width: 100%;
 }
 @media (max-width: 500px) {
@@ -95,7 +97,7 @@ footer {
   display: flex;
   justify-content: center;
   background-color: #e25151;
-  border-radius: 2px;
+  border-radius: 5px;
   padding: 10px;
 }
 .bbox {
@@ -105,6 +107,7 @@ footer {
   align-items: center;
 }
 .bbox .face {
+  border-radius: 5px;
   width: 40%;
 }
 @media (max-width: 500px) {
