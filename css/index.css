@@ -2,12 +2,13 @@ body {
   max-width: 1000px;
 }
 nav {
-  border-radius: 5px;
+  
   display: flex;
   justify-content: space-around;
   padding-top: 1rem;
   padding-bottom: 1rem;
   background-color: #e25151;
+  
 }
 nav a {
   font-size: 1.6rem;
@@ -58,7 +59,7 @@ nav a {
 .top .box .face,
 .container .box .face,
 .container2 .box .face {
-  border-radius: 20px;
+  border-radius: 200px;
   width: 70%;
   transition: transform .5s ease-in-out;
 }
@@ -69,17 +70,8 @@ nav a {
   .top .box .face,
   .container .box .face,
   .container2 .box .face {
-    width: 90%;
-    border-radius: 2rem;
-  }
-}
-@media (max-width: 500px) {
-  .top .box .face,
-  .container .box .face,
-  .container2 .box .face {
     width: 70%;
-    border-radius: .5rem;
-    
+   
   }
 }
 @media (max-width: 500px) {
@@ -127,7 +119,6 @@ footer {
   display: flex;
   justify-content: center;
   background-color: #e25151;
-  border-radius: 5px;
   padding: .7rem;
   margin-top: .8rem;
 }
@@ -138,7 +129,7 @@ footer {
   align-items: center;
 }
 .bbox .face {
-  border-radius: 5px;
+  border-radius: 200px;
   width: 40%;
   transition: transform .5s ease-in-out;
 }
