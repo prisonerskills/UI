@@ -1,6 +1,4 @@
-body {
-  max-width: 1000px;
-}
+
 nav {
   
   display: flex;
@@ -54,7 +52,7 @@ nav a {
 .top .box .ones,
 .container .box .ones,
 .container2 .box .ones {
-  height: 450px;
+  height: 550px;
 }
 .top .box .face,
 .container .box .face,
@@ -64,7 +62,7 @@ nav a {
   transition: transform .5s ease-in-out;
 }
 .face:hover {
-    transform: rotate(720deg);
+    transform: rotate(360deg);
   }
 @media (max-width: 800px) {
   .top .box .face,
@@ -134,7 +132,7 @@ footer {
   transition: transform .5s ease-in-out;
 }
 .bbox .face:hover {
-  transform: rotate(720deg);
+  transform: rotate(360deg);
 }
 @media (max-width: 500px) {
   .bbox .face {
@@ -145,9 +143,6 @@ a {
   text-decoration: none;
   color: black;
 }
-li {
-  text-decoration: none;
-}
 .link{
-  width:2rem;
+  width:30px;
 }
