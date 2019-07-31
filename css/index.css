@@ -5,18 +5,27 @@ nav {
   border-radius: 5px;
   display: flex;
   justify-content: space-around;
-  padding-top: 2rem;
-  padding-bottom: 2rem;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
   background-color: #e25151;
 }
 nav a {
-  font-size: 30px;
+  font-size: 1.6rem;
   text-decoration: none;
   color: black;
 }
-@media (max-width: 500px) {
+@media (max-width: 800px) {
   nav a {
-    font-size: 20px;
+    font-size: 1.3rem;
+  }
+}
+@media (max-width: 500px) {
+  nav{
+    padding-top: .6rem;
+    padding-bottom: .6rem;
+  }
+  nav a {
+    font-size: 1.5rem;
   }
 }
 .top,
@@ -50,13 +59,27 @@ nav a {
 .container .box .face,
 .container2 .box .face {
   border-radius: 20px;
-  width: 100%;
+  width: 70%;
+  transition: transform .5s ease-in-out;
+}
+.face:hover {
+    transform: rotate(360deg);
+  }
+@media (max-width: 800px) {
+  .top .box .face,
+  .container .box .face,
+  .container2 .box .face {
+    width: 90%;
+    border-radius: 2rem;
+  }
 }
 @media (max-width: 500px) {
   .top .box .face,
   .container .box .face,
   .container2 .box .face {
-    width: 100%;
+    width: 70%;
+    border-radius: .5rem;
+    
   }
 }
 @media (max-width: 500px) {
@@ -76,11 +99,18 @@ nav a {
 .top .box button,
 .container .box button,
 .container2 .box button {
-  width: 50%;
+  width: 9rem;
   margin: 0.1rem;
   font-size: 12px;
   border-radius: 8px;
   padding: 0.5rem;
+}
+@media (max-width: 800px) {
+  .top .box button,
+  .container .box button,
+  .container2 .box button {
+    border-radius: .1rem;
+  }
 }
 @media (max-width: 500px) {
   .top .box button,
@@ -98,7 +128,8 @@ footer {
   justify-content: center;
   background-color: #e25151;
   border-radius: 5px;
-  padding: 10px;
+  padding: .7rem;
+  margin-top: .8rem;
 }
 .bbox {
   display: flex;
@@ -109,9 +140,20 @@ footer {
 .bbox .face {
   border-radius: 5px;
   width: 40%;
+  transition: transform .5s ease-in-out;
+}
+.bbox .face:hover {
+  transform: rotate(360deg);
 }
 @media (max-width: 500px) {
   .bbox .face {
-    width: 100%;
+    width: 70%;
   }
+}
+a {
+  text-decoration: none;
+  color: black;
+}
+li {
+  text-decoration: none;
 }
