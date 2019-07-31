@@ -64,7 +64,7 @@ nav a {
   transition: transform .5s ease-in-out;
 }
 .face:hover {
-    transform: rotate(360deg);
+    transform: rotate(720deg);
   }
 @media (max-width: 800px) {
   .top .box .face,
@@ -134,7 +134,7 @@ footer {
   transition: transform .5s ease-in-out;
 }
 .bbox .face:hover {
-  transform: rotate(360deg);
+  transform: rotate(720deg);
 }
 @media (max-width: 500px) {
   .bbox .face {
@@ -147,4 +147,7 @@ a {
 }
 li {
   text-decoration: none;
+}
+.link{
+  width:2rem;
 }
