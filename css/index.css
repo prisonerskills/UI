@@ -1,4 +1,13 @@
-
+body{
+  margin-left: 15%;
+  margin-right: 15%;
+  }
+  @media (width:500px){
+    body{
+    margin-left: .01%;
+    margin-right: .01%;
+  }
+  }
 nav {
   
   display: flex;
