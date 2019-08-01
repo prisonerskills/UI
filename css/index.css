@@ -1,4 +1,12 @@
+html {
+  background: url('../img/key_.png') no-repeat center center fixed; 
+-webkit-background-size: cover;
+-moz-background-size: cover;
+-o-background-size: cover;
+background-size: cover;
+}
 body{
+  opacity: 0.9;
   min-width:500px;
   margin-left: 6%;
   margin-right: 6%;
@@ -19,6 +27,7 @@ body{
     border-radius: 100px;
   }
 nav {
+  opacity: 0.9;
   width:93%;
   display: flex;
   justify-content: space-around;
@@ -151,6 +160,7 @@ nav a {
   border-radius: 90px;
 }
 footer {
+  opacity:.9;
   display: flex;
   justify-content: center;
   background-color: #e25151;
@@ -207,12 +217,4 @@ padding-bottom:3px;
 .mytitle{
   padding-left: 10rem;
 }
-}
-.theback{
-  background-image: url('../img/key_.png');
-  background-repeat: no-repeat;
-  background-size: 95%;
-  background-position:center;
-  position:relative;
-  
 }
