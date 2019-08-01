@@ -12,7 +12,7 @@ body{
   header{
     display:flex;
     flex-direction: row;
-    
+  
   }
   .logos{
     width:7%;
@@ -209,10 +209,10 @@ padding-bottom:3px;
 }
 }
 .theback{
-  background: url('../img/key.png');
+  background-image: url('../img/key.png');
   background-repeat: no-repeat;
-  background-size: 75%;
-  background-position: center;
+  background-size: 95%;
+  background-position:center;
   position:relative;
   
 }
