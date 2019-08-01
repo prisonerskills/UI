@@ -64,6 +64,16 @@ nav a {
     align-items: center;
     justify-content: center;
   }
+  footer{
+    margin:5%;
+  }
+  header{
+    margin:2%;
+  }
+  .middle-img{
+    margin-left:15%;
+    margin-right: 15%;
+  }
 }
 .top .box,
 .container .box,
@@ -76,7 +86,8 @@ nav a {
 .top .box .ones,
 .container .box .ones,
 .container2 .box .ones {
-  height: 550px;
+  height: 500px;
+  border-radius: 30px;
 }
 .top .box .face,
 .container .box .face,
@@ -100,9 +111,10 @@ nav a {
   .top .box,
   .container .box,
   .container2 .box {
-    width: 100%;
+    width: 80%;
     align-items: center;
     justify-content: center;
+   
   }
   .top .box .ones,
   .container .box .ones,
@@ -136,6 +148,7 @@ nav a {
 .middle-img {
   width: 100%;
   padding-top: 20px;
+  border-radius: 90px;
 }
 footer {
   display: flex;
@@ -160,8 +173,11 @@ footer {
   transform: rotate(360deg);
 }
 @media (max-width: 500px) {
+  .bbox{
+    margin:10%;
+  }
   .bbox .face {
-    width: 70%;
+    width: 60%;
   }
 }
 a {
@@ -176,10 +192,27 @@ a {
 padding-bottom:3px;
 }
 @media (max-width:800px){
+  .mytitle{
+    margin-left:01%;
+  }
   .logos{display:flex;
     display:none
   }
 }
 .log{
   width:7%;
+}
+
+@media (min-width:800px){
+.mytitle{
+  padding-left: 10rem;
+}
+}
+.theback{
+  background: url('../img/key.png');
+  background-repeat: no-repeat;
+  background-size: 75%;
+  background-position: center;
+  position:relative;
+  
 }
